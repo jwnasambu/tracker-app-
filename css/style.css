@@ -7,6 +7,12 @@ body{
     background-color: black;
     overflow: hidden;
 }
+ 
+#heading{
+color: rgb(116, 118, 235);
+    text-align: center
+};
+
 
 .navigation a{
     color: cornsilk;

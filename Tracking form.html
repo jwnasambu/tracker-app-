@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <title>Issues Tracking</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="navigation">
+        <a href="Login.html">USER LOGIN</a>
+        <a href="Registration form.html">USER SIGN UP</a>
+        <a href="Tracking form.html">REQUEST FORM</a>
+    </div>
+   
+    
+        <h1 id="heading">Request Form</h1>
+
+
+<form>
+    <legend>
+        Issue Category
+            <input type="checkbox" name="Repair" value="on"> Repair
+            <input type="checkbox" name="Maintenance" value="on"> Maintenance
+            <br>
+    
+       <label> Opened by</label>
+        
+   <br>
+           <label>Name :</label> 
+           <br>
+          
+            <input type="text" name="Full Name" />
+            <br>
+   
+       <label> Priority:</label>
+        
+    <br>
+    <select name="dropdown">
+        <option value="Low" selected>Low</option>
+        <option value="Moderate" selected>Moderate</option>
+        <option value="High" selected>High</option>
+    </select>
+            <br>       
+                    
+        <label>Date Opened:</label>
+        <br>
+        
+
+        <input type="date" name="Date opened" />
+        
+        <br>
+        
+           <label>Date closed:</label>
+           <br>
+        
+        <input type="date" name="Date closed:" />
+        <br>
+
+       
+            <label>Status:</label>
+            <br>
+    <select name="dropdown">
+        <option value="Not started" selected>Not started</option>
+        <option value="Started" selected>Moderate</option>
+        <option value="Complete" selected>Complete</option>
+    </select>
+    <br>
+    
+    <label>Comments:</label>
+    <br>
+        <textarea rows="5" cols="50" name="description">
+Enter description here...
+</textarea>
+<br>
+    <input type="submit" value="submit" class="btn.submit">
+    </legend>
+</form>
+</body>
+<html>
