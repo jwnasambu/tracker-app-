@@ -4,13 +4,13 @@ body{
     background-image: url("../images/Apple.jpg")
 }
 .navigation{
-    background-color: black;
+    background-color: white;
     overflow: hidden;
 }
  
 #heading{
-color: rgb(116, 118, 235);
-    text-align: center
+color:+black;
+    text-align: center;
 };
 
 
@@ -25,10 +25,10 @@ color: rgb(116, 118, 235);
 }
 
 .login-page{
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 25%;
     margin-right: 25%;
-    background-color: blue;
+    background-color: white;
 }
 h1{
     color: white;
