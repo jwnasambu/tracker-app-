@@ -1,17 +1,17 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("../images/Apple.jpg")
+    background-image: url("../images/planet.jpg")
 }
 .navigation{
-    background-color: white;
+    background-color: rgb(58, 50, 50);
     overflow: hidden;
 }
  
 #heading{
 color:+black;
     text-align: center;
-};
+}
 
 
 .navigation a{
@@ -23,6 +23,9 @@ color:+black;
     float: left;
 
 }
+.maintain{
+    font-size: 25px;
+}
 
 .login-page{
     margin-top: 5%;
@@ -31,7 +34,7 @@ color:+black;
     background-color: white;
 }
 h1{
-    color: white;
+    /* color: white; */
 }
 input[type=text],[type=password],[type=email], input[type=date], select{
     width: 30%;
@@ -56,11 +59,9 @@ input[type=submit]{
     background-color: green;
 }
 
-.tab-content{
-    background-color: rgb(87, 87, 233);
-}
 form{
     margin: 20px;
 }
+
 
 
