@@ -8,26 +8,21 @@
     <title>View user details</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body text="white" bg color"white">
         <div class="navigation">
-                <a href="userlogin.html">USER LOGIN</a>
-                <a href="usersignup.html">USER SIGN UP</a>
+                <a href="Userlogin.html">USER LOGIN</a>
+                <a href="Usersignup.html">USER SIGN UP</a>
                 <a href="request.html">REQUEST FORM</a>
                 <a href="adminlogin.html">ADMIN LOG IN</a>
                 <a href="adminview.html">ADMIN VIEW</a>
+                <a href="logout.html">LOG OUT</a>
         </div>
 
         <div class="sidenav">
                 <form id="frmfilter">
-                        <label>FILTERS:</label><br><p>
-                        <select id="service">
-                            <option selected="Approved Requests">Approved Requests</option>
-                            <option id="Rejected Requests">Rejected Requests</option>
-                            <option selected="Resolved Requests">Resolved Requests</option>
-                            <option id="Filtered Requests">Filtered Requests</option>
-                        </select><br><p>
-          
-          <form id="frmfilter">
+                        <label>FILTERS:</label><br><p></p></form>
+                        
+        <form id="frmfilter">
                 <label>Search by service:</label><br><p>
                 <select id="service">
                     <option selected="Repair">Repair</option>
@@ -41,8 +36,6 @@
                             <option id="Photocopier">Photocopier</option>
                             <option id="Printer">Printer</option>
                         </select><br><p>
-                        
-                <button class="btnfilter">Filter Request</button>
                            
             </form> 
            
@@ -50,65 +43,57 @@
           <div class="content"><center>
            <h2>RECEIVED USER REQUESTS</h2>
             <table style="width: 75%"<table border="1" cellpadding="15" cellspacing="10">
-                <tr>
+            <tr>
                 <td>NAME </td>
                 <td>ITEM </td>
                 <td>ISSUE</td>
                 <td>SERVICES</td>
                 <td>DATE</td>
-                <td>STATUS</td>
-                <td>RESOLVED</td>
-                </tr>
-                <tr>
+                <td>FEEDBACK</td>
+            </tr>
+            <tr>
                 <td>Oddeta Kale</td>
                 <td>printer</td>
                 <td>Failing to pick the paper from the try</td>
                 <td>Repair</td>
                 <td>18/05/2018</td>
-                <td>Moderate</td>
-                <td><input type="checkbox" name="chk5">&nbsp;</td>
-                
-                </tr>
-                <tr>
+                <td>Approved and resolved</td>
+            </tr>
+            <tr>
                 <td>Maria Naaku</td>
                 <td>Printer</td>
                 <td>Makes noise while printing</td>
                 <td>Maintenance</td>
                 <td>18/05/2018</td>
-                <td>Approved</td>
-                <td><input type="checkbox" name="chk5">&nbsp;</td>
-                </tr>
-                <tr>
+                <td>Approved and resolved</td>
+            </tr>
+            <tr>
                 <td>Luttu  Sam</td>
                 <td>Laptop</td>
                 <td>Broken screen</td>
                 <td>Repair</td>
                 <td>01/06/2018</td>
-                <td>Not started</td>
-                <td><input type="checkbox" name="chk5">&nbsp;</td>
-                </tr>
-                <tr>
+                <td>Rejected</td>
+            </tr>
+            <tr>
                 <td>Naaku Nora</td>
                 <td>Desktop</td>
                 <td>crushed</td>
                 <td>Maintaince</td>
                 <td>03/06/2018</td>
                 <td>pending</td>
-                <td><input type="checkbox" name="chk5">&nbsp;</td>
-                </tr>
-                <tr>
+            </tr>
+            <tr>
                 <td>Ritah Kwagala</td>
                 <td>Scanner</td>
                 <td>Broken</td>
                 <td>Repair</td>
                 <td>03/06/2018</td>
                 <td>Rejected</td>
-                <td><input type="checkbox" name="chk5">&nbsp;</td>
-                </tr>
+            </tr>
             </table>
             <center>
-            <button class="btnapprove">Approve Request</button>
-            <button class="btnreject" onclick="info()">Reject Request</button>
+            <button class="btnapprove">Send feedback</button>
         </center>
 
         </div> 
