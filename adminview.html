@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <title>View user details</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body text="white" bg color"white">
+        <div class="navigation">
+                <a href="Userlogin.html">USER LOGIN</a>
+                <a href="Usersignup.html">USER SIGN UP</a>
+                <a href="request.html">REQUEST FORM</a>
+                <a href="adminlogin.html">ADMIN LOG IN</a>
+                <a href="adminview.html">ADMIN VIEW</a>
+                <a href="logout.html">LOG OUT</a>
+        </div>
+
+        <div class="sidenav">
+                <form id="frmfilter">
+                        <label>FILTERS:</label><br><p></p></form>
+                        
+        <form id="frmfilter">
+                <label>Search by service:</label><br><p>
+                <select id="service">
+                    <option selected="Repair">Repair</option>
+                    <option id="Laptop">Maintenance</option>
+                </select><br><p>
+                     
+                    <label> Search by Item:</label><br><p>
+                    <select id="Item">
+                            <option id="Laptop">Laptop</option>
+                            <option id="Desktop">Desktop</option>
+                            <option id="Photocopier">Photocopier</option>
+                            <option id="Printer">Printer</option>
+                        </select><br><p>
+                           
+            </form> 
+           
+          </div>
+          <div class="content"><center>
+           <h2>RECEIVED USER REQUESTS</h2>
+            <table style="width: 75%"<table border="1" cellpadding="15" cellspacing="10">
+            <tr>
+                <td>NAME </td>
+                <td>ITEM </td>
+                <td>ISSUE</td>
+                <td>SERVICES</td>
+                <td>DATE</td>
+                <td>FEEDBACK</td>
+            </tr>
+            <tr>
+                <td>Oddeta Kale</td>
+                <td>printer</td>
+                <td>Failing to pick the paper from the try</td>
+                <td>Repair</td>
+                <td>18/05/2018</td>
+                <td>Approved and resolved</td>
+            </tr>
+            <tr>
+                <td>Maria Naaku</td>
+                <td>Printer</td>
+                <td>Makes noise while printing</td>
+                <td>Maintenance</td>
+                <td>18/05/2018</td>
+                <td>Approved and resolved</td>
+            </tr>
+            <tr>
+                <td>Luttu  Sam</td>
+                <td>Laptop</td>
+                <td>Broken screen</td>
+                <td>Repair</td>
+                <td>01/06/2018</td>
+                <td>Rejected</td>
+            </tr>
+            <tr>
+                <td>Naaku Nora</td>
+                <td>Desktop</td>
+                <td>crushed</td>
+                <td>Maintaince</td>
+                <td>03/06/2018</td>
+                <td>pending</td>
+            </tr>
+            <tr>
+                <td>Ritah Kwagala</td>
+                <td>Scanner</td>
+                <td>Broken</td>
+                <td>Repair</td>
+                <td>03/06/2018</td>
+                <td>Rejected</td>
+            </tr>
+            </table>
+            <center>
+            <button class="btnapprove">Send feedback</button>
+        </center>
+
+        </div> 
+    
+    
+</body>
+</html>

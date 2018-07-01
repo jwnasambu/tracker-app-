@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/planet.jpg")
+}
+.navigation{
+    background-color: rgb(58, 50, 50);
+    overflow: hidden;
+}
+ 
+#heading{
+color:+black;
+    text-align: center;
+}
+
+
+.navigation a{
+    color: cornsilk;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 5%;
+    padding: 15px 15px;
+    float: left;
+
+}
+.maintain{
+    font-size: 25px;
+}
+
+.login-page{
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: white;
+}
+h1{
+    /* color: white; */
+}
+input[type=text],[type=password],[type=email], input[type=date], select{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+input[type=submit]{
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: green;
+}
+
+form{
+    margin: 20px;
+}
+
+
+
